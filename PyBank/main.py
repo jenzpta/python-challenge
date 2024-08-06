@@ -59,7 +59,6 @@ with open('pybank.txt', "w") as textfile:
     textfile.write("------------------------------\n")
     textfile.write(f"Total Months: {total_months}\n")
     textfile.write(f"Total: $ {net_profit_loss}\n")
-    textfile.write(f"Average Change: $ {net_profit_loss}\n")
+    textfile.write(f"Average Change: $ {average_change}\n")
     textfile.write(f"Greatest Increase in Profits: {greatest_pro_increase_date} ($ {greatest_pro_increase})\n")
     textfile.write(f"Greatest Decrease in Profits: {greatest_pro_decrease_date} ($ {greatest_pro_decrease})\n")
-
